@@ -1,0 +1,297 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pic1.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.menu{
+    width: auto;
+    height: 40px;
+    background: black;
+    background-blend-mode: lighten;
+    color: #fff;
+    padding: 10px 0px 20px;
+}
+
+.menu ul{
+  margin: none;
+  list-style-type: none;                
+  padding: 0px 0px 0px;
+  position: sticky;
+  top: 0;
+}
+
+.menu li{
+  display: inline-block;
+  width: auto;
+  padding-right: 4px;
+  text-align: center;
+  float: left;
+}
+
+
+.menu a {
+  padding: 10px;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border-radius: 25px;
+}
+
+.menu li a:hover {
+  background-color: orange;
+}
+.active {
+  background-color: yellow;
+}
+
+/* Login page */ /*admin login*/    
+.loginbox{
+    width: 330px;
+    height: 460px;
+    background: #000;
+    color: #fff;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 140px 30px;
+    border-radius: 15px;
+    top: 20%;
+    left: 10%;
+}
+
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 43%;
+    position: absolute;
+    top: 20px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: red;
+}
+
+.loginbox a:hover
+{
+    color: #ffc107;
+}
+
+
+/*profile selection*/
+
+.loginboxprofile{
+    width: 320px;
+    height: 400px;
+    background: #000;
+    color: #fff;
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 70px 30px;
+    outline: none;
+    border-radius: 45px;
+}
+
+.avatarprofile{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 210px;
+    left: calc(50% - 50px);
+}
+
+.avatar2profile{
+    width: 100px;
+    height: 100px;
+    border-radius: 30%;
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 50px);
+}
+
+h2{
+    margin: 0;
+    padding: 90px 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+h3{
+    margin: 0;
+    padding: 125px 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+
+.loginboxprofile a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: white;
+    outline: none;
+}
+
+.loginboxprofile a:hover
+{
+    color: #ffc107;
+}
+
+/*signup */
+
+.signup{
+    width: 320px;
+    height: 500px;
+    background: #000;
+    color: #fff;
+    top: 20%;
+    left: 10%;
+    position: absolute;
+    box-sizing: border-box;
+    padding: 60px 30px;
+    outline: none;
+    border-radius: 45px;
+}
+
+.signup p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.signup input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.signup input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.signup input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #fb2525;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.signup input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.signup a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: red;
+}
+
+.signup a:hover
+{
+    color: #ffc107;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

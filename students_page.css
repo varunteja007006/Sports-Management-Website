@@ -1,0 +1,277 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pic2.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.menu{
+    width: auto;
+    height: 40px;
+    background: black;
+    background-blend-mode: lighten;
+    color: #fff;
+    padding: 10px 0px 20px;
+
+}
+
+.menu ul{
+  margin: none;
+  list-style-type: none;                
+  padding: 0px 0px 0px;
+  position: sticky;
+  top: 0;
+}
+
+.menu li{
+  display: inline-block;
+  width: auto;
+  text-align: center;
+  float: left;
+  padding-right: 10px;
+}
+
+
+.menu a {
+  padding: 5px;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+.menu li a:hover {
+  background-color: orange;
+}
+
+/*results body*/
+.result_body {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  border-radius: 20PX;
+  padding: 30px 20px;
+  width: auto;
+  height: auto;
+  background-color: black;
+  opacity: 90%;
+  color: white;
+
+}
+
+.result_body input[name="ename"]{
+  width: 200px; 
+  height: 30px;
+  margin-left: 15px;
+}
+
+.result_body input[type="submit"]{
+  height: 30px;
+  margin-left: 15px;
+  width: 80px;
+  background-color: white;
+  color: black;
+  border-radius: 10%;
+  border-style: none;
+  font-weight: bold;
+  font-size: 15px;
+
+}
+.result_body input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.result_body h1{
+  padding-left: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+.result_body h2{
+  padding-left: 15px;
+  font-size: 20px;
+  text-align: left;
+  text-decoration-line: underline;
+}
+
+.result_body p{
+  margin-left: 15px;
+}
+
+.resultmsg h4{
+  font-size: 20px;
+  color: white;
+  margin-left:20px; 
+}
+
+.result_body input[placeholder]
+{
+  font-weight: bold;
+  text-align: center;
+}
+
+.result_table table{
+  padding-left: 10px;
+  display: inline-block;
+  margin-left: auto;
+}
+.result_table th{
+    padding-right: 15px;
+    padding-left: 15px;
+    border:  2px dashed white; 
+}
+
+/*ongoing events */
+.students_page {
+  top: 430px;
+  left: 65%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  border-radius: 20PX;
+  padding: 30px 20px;
+  width: 800px;
+  height: auto;
+  background-color: black;
+  opacity: 90%;
+  color: white;
+}
+
+.students_page h1{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+
+}
+
+.students_page h2{
+  padding-left: 20px;
+  font-size: 20px;
+  
+}
+
+.ongoing table{
+  padding-left: 10px;
+  padding-right: 10px;
+  display: inline-block;
+  margin-left: auto;
+}
+.ongoing th{
+    padding-right: 15px;
+    padding-left: 15px;
+    border:  2px dashed white; 
+}
+.bookit input[name="bookname"]{
+  width: 250px; 
+  height: 35px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 15px;
+}
+
+.bookit input[type="submit"]{
+  height: 35px;
+  margin-left: 95px;
+  width: 80px;
+  margin-right: 15px;
+  background-color: white;
+  color: black;
+  border-radius: 10%;
+  border-style: none;
+  font-size: 17px;
+  font-weight: bold;
+}
+.bookit input[type="submit"]:hover {
+    cursor: pointer;
+    background: #ffc107;
+    color: #000;
+}
+.bookit input[placeholder]
+{
+  font-weight: bold;
+  text-align: center;
+}
+.bookit{
+  top: 230px;
+  left: 16%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  border-radius: 20PX;
+  padding: 20px 20px;
+  width: auto;
+  height: auto;
+  background-color: black;
+  opacity: 90%;
+  color: white;
+}
+
+.bookit h2{
+font-size: 20px;
+text-align: center;
+margin-left: 20px;
+margin-right: 20px;
+}
+
+
+/*events registered*/
+.user_name ul{
+  margin: none;
+  list-style-type: none;                
+  padding: 0px 0px 0px;
+}
+.user_name li{
+  width: auto;
+  padding-left: 4px;
+  text-align: left;
+  float: left;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.student_enroll h1{
+  font-weight: bold;
+  font-size: 25px;
+  text-align: center;
+}
+
+.student_enroll h2{
+  padding-left: 20px;
+  font-size: 20px;
+  
+}
+
+.enrollmsg h4{
+  font-size: 20px;
+  color: white;
+  margin-left:20px; 
+}
+
+.student_enroll {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%,-38%);
+  box-sizing: border-box;
+  border-radius: 20PX;
+  padding: 30px 20px;
+  width: 900px;
+  height: auto;
+  background-color: black;
+  opacity: 90%;
+  color: white;
+}
+
+.evregister table{
+  padding-left: 10px;
+  display: inline-block;
+  margin-left: auto;
+}
+.evregister th{
+    padding-right: 15px;
+    padding-left: 15px;
+    border:  2px dashed white; 
+}

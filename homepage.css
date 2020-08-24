@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(pic1.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+/*Homepage*/
+
+.menu{
+    width: auto;
+    height: 40px;
+    background: black;
+    background-blend-mode: lighten;
+    color: #fff;
+    padding: 10px 0px 20px;
+}
+
+.menu ul{
+  margin: none;
+  list-style-type: none;                
+  padding: 0px 0px 0px;
+  position: sticky;
+  top: 0;
+}
+
+.menu li{
+  display: inline-block;
+  width: auto;
+  padding-right: 4px;
+  text-align: center;
+  float:left;
+}
+
+
+.menu a {
+  padding: 10px;
+  background-color: transparent;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border-radius: 25px;
+}
+
+.menu li a:hover {
+  background-color: orange;
+}
+.active {
+  background-color: yellow;
+}
+
+.description {
+  top: 55%;
+  left: 25%;
+  position: absolute;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 30px 20px;
+  width: 550px;
+  height: 450px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+.description p{
+  font-size: 20px;
+}
+
+/*about us*/
+
+.aboutus {
+  top: 55%;
+  left: 25%;
+  position: fixed;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 30px 20px;
+  width: 550px;
+  height: 450px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+
+}
+
+.aboutus p{
+  font-size: 20px;
+}
+
+.show {
+  background-color: black;
+}
+
+
+/*contact_us*/
+
+.contactus {
+  top: 55%;
+  left: 25%;
+  position: fixed;
+  transform: translate(-50%,-50%);
+  box-sizing: border-box;
+  padding: 30px 20px;
+  width: 550px;
+  height: 450px;
+  background-color: black;
+  color: white;
+  border-radius: 15px;
+}
+
+.contactus p{
+  font-size: 20px;
+}
+
+/*home2*/
+
