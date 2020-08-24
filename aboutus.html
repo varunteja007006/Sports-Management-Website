@@ -1,0 +1,69 @@
+
+<html>
+<head>
+<title>About us</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="homepage.css">
+</head>
+<body>
+	<div class="menu">
+ 	<ul>
+  		<li> <a href="homepage.html">Home </a> </li>
+  		<li> <a href="contact.html">Contact</a></li>
+  		<li> <a href="aboutus.html">About us</a></li>
+  		<li> <a href="chooseprofile.html">Log in</a></li>
+  		<li> <a href="signup.php">Sign up</a></li>	
+	</ul> 
+
+</div>
+<div class="aboutus" >
+	<p>This website also provides info about sports. Please find it here.</p>
+	<br>
+	<div class="show" id='showsport'></div><br>
+	<input type="button" onclick="previous()" value="<<">
+	<input type="button" onclick="next()" value=">>">
+
+	<script>
+		var i = 0;
+		var x;
+		displaysport(i);
+		
+		function displaysport(i) {
+			var xmlhttp = new XMLHttpRequest();
+			xmlhttp.onreadystatechange = function() {
+				if (this.readyState == 4 && this.status == 200) {
+					myFunction(this, i);
+				}
+			};
+			xmlhttp.open("GET", "xmlfile.xml", true);
+			xmlhttp.send();
+		}
+		
+		function myFunction(xml, i) {
+			var xmlDoc = xml.responseXML; 
+			x = xmlDoc.getElementsByTagName("SPORT");
+			document.getElementById("showsport").innerHTML =
+			"Name: " +
+			x[i].getElementsByTagName("NAME")[0].childNodes[0].nodeValue +
+			"<br>Description: " +
+			x[i].getElementsByTagName("DESCRIPTION")[0].childNodes[0].nodeValue ;
+		}
+		
+		function next() {
+		if (i < x.length-1) {
+		  i++;
+		  displaysport(i);
+		  }
+		}
+		
+		function previous() {
+		if (i > 0) {
+		  i--;
+		  displaysport(i);
+		  }
+		}
+		</script>
+		
+</div>
+</body>
+</html>
