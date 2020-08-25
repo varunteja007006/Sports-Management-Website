@@ -54,4 +54,5 @@ Users interact with the following php files:
 
 > ongoing_events allow user to check the list of events that the admin added into database and whichever event you book will be shown in events_registered and you can search for results in display_results.
 
+Finally gethint.php just provides suggestions while you type in search box of display_results.
 
