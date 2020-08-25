@@ -27,16 +27,31 @@ Php related files are:
 
 > logout file allows you to disonnect from the server.
 
-Now some .php files are divided between users and admin.
+Now some php files are divided between users and admin.
+
 Admin has access to following files:
 1. admin_signup.php
 2. add_events.php
 3. results.php
 4. Adminlogin.php
 
-> admin_signup allows the admin of the webpage to create his username and password
+> admin_signup allows the admin of the webpage to create his username and password.
+
 > Adminlogin allows you to login into the admin account to proceed into two webpages add_events and results.
+
 > add_events allows you to add any sports event and its details as an admin.
-> results allows you to add results of the event as an admin
+
+> results allows you to add results of the event as an admin.
+
+Users interact with the following php files:
+1. signup.php
+2. studentlogin.php
+3. ongoing_events.php
+4. events_registered.php
+5. display_results.php
+
+> signup allows new users to signup into your webpage and studentlogin allows user to login.
+
+> ongoing_events allow user to check the list of events that the admin added into database and whichever event you book will be shown in events_registered and you can search for results in display_results.
 
 
