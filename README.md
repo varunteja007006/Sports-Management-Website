@@ -15,17 +15,17 @@ Now coming to the HTML files:
 3. aboutus.html
 4. chooseprofile.html
 
->> chooseprofile helps you to choose the login as user or admin.
+> chooseprofile helps you to choose the login as user or admin.
 
->> When you check the aboutus there is a xml related script enclosed in between the tags <script>.... </script>. You can delete those lines if you do not want them else you can modify the xml file (xmlfile.xml).
+> When you check the aboutus there is a xml related script enclosed in between the tags <script>.... </script>. You can delete those lines if you do not want them else you can modify the xml file (xmlfile.xml).
 
 Php related files are:
 1. config.php 
 2. logout.php
 
->> Config file allows you to connect to your "phpmyadmin" server. The server name is localhost, you will login as "root" and if its password protected give you password else just leave it like this "". Now you give your database name, in my case it is "login".
+> Config file allows you to connect to your "phpmyadmin" server. The server name is localhost, you will login as "root" and if its password protected give you password else just leave it like this "". Now you give your database name, in my case it is "login".
 
->> logout file allows you to disonnect from the server.
+> logout file allows you to disonnect from the server.
 
 
 
