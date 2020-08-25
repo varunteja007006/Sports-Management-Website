@@ -23,9 +23,20 @@ Php related files are:
 1. config.php 
 2. logout.php
 
-> Config file allows you to connect to your "phpmyadmin" server. The server name is localhost, you will login as "root" and if its password protected give you password else just leave it like this "". Now you give your database name, in my case it is "login".
+> Config file allows you to connect to your "phpmyadmin" server. The server name is localhost, you will login as "root" and if its password protected give you password else just leave it like this "". Now you give your database name, in this case it is "login".
 
 > logout file allows you to disonnect from the server.
 
+Now some .php files are divided between users and admin.
+Admin has access to following files:
+1. admin_signup.php
+2. add_events.php
+3. results.php
+4. Adminlogin.php
+
+> admin_signup allows the admin of the webpage to create his username and password
+> Adminlogin allows you to login into the admin account to proceed into two webpages add_events and results.
+> add_events allows you to add any sports event and its details as an admin.
+> results allows you to add results of the event as an admin
 
 
