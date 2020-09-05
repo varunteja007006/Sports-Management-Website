@@ -7,7 +7,7 @@ First of CSS is uesd to style the HTML page. The following is the list of Cascad
 3. students_page.css
 4. style.css
 
-Also attached few pictures, pic1.jpg to pic7.jpg and avatar.png, avatar2.svg. These are used as background images and for login ,sign up.
+Also attached few avatar.png and avatar2.svg. These are used for login and sign up.
 
 Now coming to the HTML files:
 1. homepage.html
