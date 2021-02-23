@@ -56,3 +56,15 @@ Users interact with the following php files:
 
 Finally gethint.php just provides suggestions while you type in search box of display_results.
 
+
+References:
+
+@W3schools 
+
+@CodeWithHarry (youtube)
+
+@mmtuts (youtube)
+
+@learnWebCoding (youtube)
+
+@Thapa Technical (youtube)
